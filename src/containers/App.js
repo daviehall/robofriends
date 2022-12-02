@@ -24,7 +24,7 @@ function App (){
     const filteredRobots = robots.filter(robot => {
         return robot.name.toLowerCase().includes(searchField.toLowerCase())
     })
-    
+
     return !robots.length ?
         <h1 className='tc'>Loading </h1> :
         (
@@ -40,9 +40,6 @@ function App (){
         )
     
 }
-    // }
 
-
-// }
 
 export default App
